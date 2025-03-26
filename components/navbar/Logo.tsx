@@ -1,13 +1,13 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '../ui/button';
 import { VscArchive } from 'react-icons/vsc';
+import logo from '@/public/images/logo.webp';
 
 export const Logo = () => {
   return (
-    <Button size='icon' asChild>
-      <Link href='/'>
-        <VscArchive className='w-6 h-6' />
-      </Link>
-    </Button>
+    <Link href='/'>
+      <Image src={logo} alt='Dinner plate' width={100} height={100} />
+    </Link>
   );
 };
