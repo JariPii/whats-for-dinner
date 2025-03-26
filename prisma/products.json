@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Korv med bröd",
+    "description": "Korv och bröd",
+    "featured": true,
+    "image": "test",
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Hamburgartallrik",
+    "description": "Hamburgare och tallrik",
+    "featured": true,
+    "image": "test",
+    "clerkId": "clerkId"
+  },
+  {
+    "name": "Korvsoppa",
+    "description": "Korvsoppa och tallrik",
+    "featured": false,
+    "image": "test",
+    "clerkId": "clerkId"
+  }
+]
